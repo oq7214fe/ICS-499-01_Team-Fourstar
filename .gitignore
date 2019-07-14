@@ -1,0 +1,11 @@
+# UE4 Non Essentials #
+######################
+
+# Directories #
+**/Binaries
+**/DerivedDataCache
+**/Intermediate
+**/Saved
+*.sln
+*.sdf
+*.suo
