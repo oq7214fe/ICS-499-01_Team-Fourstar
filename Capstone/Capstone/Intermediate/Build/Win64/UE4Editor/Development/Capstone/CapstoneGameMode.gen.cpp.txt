@@ -1,9 +1,0 @@
-C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Intermediate\Build\Win64\UE4Editor\Development\Capstone\Definitions.Capstone.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Source\Capstone/CapstoneGameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-c:\users\xsoni\documents\github\ics-499-01_team-fourstar\capstone\capstone\intermediate\build\win64\ue4editor\inc\capstone\CapstoneGameMode.generated.h
