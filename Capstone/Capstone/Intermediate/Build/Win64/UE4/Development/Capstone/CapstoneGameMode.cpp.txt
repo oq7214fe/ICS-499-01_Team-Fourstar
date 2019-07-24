@@ -1,0 +1,15 @@
+C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Intermediate\Build\Win64\UE4\Development\Capstone\Definitions.Capstone.h
+c:\users\xsoni\documents\github\ics-499-01_team-fourstar\capstone\capstone\source\capstone\CapstoneGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameModeBase.generated.h
+C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Intermediate\Build\Win64\UE4\Inc\Capstone\CapstoneGameMode.generated.h
+c:\users\xsoni\documents\github\ics-499-01_team-fourstar\capstone\capstone\source\capstone\CapstoneCharacter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Source\Paper2D\Classes\PaperCharacter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4\Inc\Paper2D\PaperCharacter.generated.h
+C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Intermediate\Build\Win64\UE4\Inc\Capstone\CapstoneCharacter.generated.h
