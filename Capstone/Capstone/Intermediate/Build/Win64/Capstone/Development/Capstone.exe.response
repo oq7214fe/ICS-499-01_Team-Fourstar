@@ -16,13 +16,14 @@
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
+/DELAYLOAD:"libsndfile-1.dll"
+/DELAYLOAD:"steam_api64.dll"
 /DELAYLOAD:"mf.dll"
 /DELAYLOAD:"mfplat.dll"
 /DELAYLOAD:"mfplay.dll"
 /DELAYLOAD:"mfuuid.dll"
 /DELAYLOAD:"shlwapi.dll"
 /DELAYLOAD:"GFSDK_Aftermath_Lib.x64.dll"
-/DELAYLOAD:"libsndfile-1.dll"
 /DELAYLOAD:"OVRPlugin.dll"
 /DELAYLOAD:"WinPixEventRuntime.dll"
 /DELAYLOAD:"vulkan-1.dll"
@@ -37,12 +38,13 @@
 /DELAYLOAD:"libogg_64.dll"
 /DELAYLOAD:"libvorbis_64.dll"
 /DELAYLOAD:"libvorbisfile_64.dll"
+/LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Binaries\ThirdParty\libsndfile\Win64"
+/LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\Steamworks\Steamv139\sdk\redistributable_bin\win64"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\OpenSSL\1.1.1\lib\Win64\VS2015\Release"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\libWebSockets\libwebsockets\lib\Win64\VS2015\Release"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\zlib\v1.2.8\lib\Win64\VS2015\Release"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\openexr\Deploy\lib\VS2015\x64\StaticRelease"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\NVIDIA\NVaftermath\amd64"
-/LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Binaries\ThirdParty\libsndfile\Win64"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\Windows\DirectX\Lib\x64"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\OpenSubdiv\3.2.0\lib\Win64\VS2015\RelWithDebInfo"
 /LIBPATH:"C:\Program Files\Epic Games\UE_4.22\Engine\Source\ThirdParty\Oculus\OVRPlugin\OVRPlugin\Lib\Win64"
@@ -95,6 +97,15 @@
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\Launch\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4\Development\Paper2D\Module.Paper2D.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4\Development\Paper2D\Module.Paper2D.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\CoreUObject\SharedPCH.CoreUObject.h.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Development\OnlineSubsystem\Module.OnlineSubsystem.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Development\OnlineSubsystem\Module.OnlineSubsystem.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemUtils\Module.OnlineSubsystemUtils.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemUtils\Module.OnlineSubsystemUtils.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Marketplace\VaRestPlugin\Intermediate\Build\Win64\UE4\Development\VaRestPlugin\Module.VaRestPlugin.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Marketplace\VaRestPlugin\Intermediate\Build\Win64\UE4\Development\VaRestPlugin\Module.VaRestPlugin.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\AI\AISupport\Intermediate\Build\Win64\UE4\Development\AISupportModule\AISupportModule.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Blendables\LightPropagationVolume\Intermediate\Build\Win64\UE4\Development\LPVRuntime\LightPropagationVolumeRuntimeModule.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Blendables\LightPropagationVolume\Intermediate\Build\Win64\UE4\Development\LPVRuntime\LightPropagationVolumeBlendable.gen.cpp.obj"
@@ -122,7 +133,6 @@
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Experimental\CharacterAI\Intermediate\Build\Win64\UE4\Development\CharacterAI\CharacterAIModule.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Experimental\HTML5Networking\Intermediate\Build\Win64\UE4\Development\HTML5Networking\Module.HTML5Networking.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Experimental\HTML5Networking\Intermediate\Build\Win64\UE4\Development\HTML5Networking\Module.HTML5Networking.gen.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\CoreUObject\SharedPCH.CoreUObject.h.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Media\AvfMedia\Intermediate\Build\Win64\UE4\Development\AvfMediaFactory\Module.AvfMediaFactory.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Media\AvfMedia\Intermediate\Build\Win64\UE4\Development\AvfMediaFactory\Module.AvfMediaFactory.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Media\ImgMedia\Intermediate\Build\Win64\UE4\Development\ImgMedia\Module.ImgMedia.cpp.obj"
@@ -146,10 +156,6 @@
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\MovieScene\ActorSequence\Intermediate\Build\Win64\UE4\Development\ActorSequence\Module.ActorSequence.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\MovieScene\ActorSequence\Intermediate\Build\Win64\UE4\Development\ActorSequence\Module.ActorSequence.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemNull\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemNull\Module.OnlineSubsystemNull.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Development\OnlineSubsystem\Module.OnlineSubsystem.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Development\OnlineSubsystem\Module.OnlineSubsystem.gen.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemUtils\Module.OnlineSubsystemUtils.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4\Development\OnlineSubsystemUtils\Module.OnlineSubsystemUtils.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\Core\SharedPCH.Core.h.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Portal\LauncherChunkInstaller\Intermediate\Build\Win64\UE4\Development\LauncherChunkInstaller\LauncherChunkInstaller.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\Runtime\AndroidPermission\Intermediate\Build\Win64\UE4\Development\AndroidPermission\Module.AndroidPermission.cpp.obj"
@@ -555,8 +561,8 @@
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\ProfilerMessages\ProfilerMessages.init.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\ProfilerMessages\ProfilerServiceMessages.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\ProfilerService\Module.ProfilerService.cpp.obj"
-"C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\ImageCore\ImageCore.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\Voice\Module.Voice.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\ImageCore\ImageCore.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\GeometryCollectionCore\Module.GeometryCollectionCore.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\GeometryCollectionCore\Module.GeometryCollectionCore.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Development\FieldSystemCore\Module.FieldSystemCore.cpp.obj"
@@ -598,6 +604,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+"libsndfile-1.lib"
+"steam_api64.lib"
 "ThirdParty/OpenSSL\1.1.1\lib\Win64\VS2015\Release\libssl.lib"
 "ThirdParty/OpenSSL\1.1.1\lib\Win64\VS2015\Release\libcrypto.lib"
 "crypt32.lib"
@@ -609,7 +617,6 @@
 "IlmThread.lib"
 "Imath.lib"
 "GFSDK_Aftermath_Lib.x64.lib"
-"libsndfile-1.lib"
 "dxguid.lib"
 "dsound.lib"
 "ThirdParty/MikkTSpace/lib/Win64/VS2017/MikkTSpace.lib"
@@ -677,6 +684,10 @@
 /PDB:"C:\Users\Xsoni\Documents\GitHub\ICS-499-01_Team-Fourstar\Capstone\Capstone\Binaries\Win64\Capstone.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_Paper2D
+/INCLUDE:IMPLEMENT_MODULE_OnlineSubsystemSteam
+/INCLUDE:IMPLEMENT_MODULE_OnlineSubsystem
+/INCLUDE:IMPLEMENT_MODULE_OnlineSubsystemUtils
+/INCLUDE:IMPLEMENT_MODULE_VaRestPlugin
 /INCLUDE:IMPLEMENT_MODULE_AISupportModule
 /INCLUDE:IMPLEMENT_MODULE_LightPropagationVolumeRuntime
 /INCLUDE:IMPLEMENT_MODULE_AnimationSharing
@@ -703,8 +714,6 @@
 /INCLUDE:IMPLEMENT_MODULE_UdpMessaging
 /INCLUDE:IMPLEMENT_MODULE_ActorSequence
 /INCLUDE:IMPLEMENT_MODULE_OnlineSubsystemNull
-/INCLUDE:IMPLEMENT_MODULE_OnlineSubsystem
-/INCLUDE:IMPLEMENT_MODULE_OnlineSubsystemUtils
 /INCLUDE:IMPLEMENT_MODULE_LauncherChunkInstaller
 /INCLUDE:IMPLEMENT_MODULE_AndroidPermission
 /INCLUDE:IMPLEMENT_MODULE_ArchVisCharacter
@@ -839,8 +848,8 @@
 /INCLUDE:IMPLEMENT_MODULE_RealtimeProfiler
 /INCLUDE:IMPLEMENT_MODULE_ProfilerMessages
 /INCLUDE:IMPLEMENT_MODULE_ProfilerService
-/INCLUDE:IMPLEMENT_MODULE_ImageCore
 /INCLUDE:IMPLEMENT_MODULE_Voice
+/INCLUDE:IMPLEMENT_MODULE_ImageCore
 /INCLUDE:IMPLEMENT_MODULE_GeometryCollectionCore
 /INCLUDE:IMPLEMENT_MODULE_FieldSystemCore
 /INCLUDE:IMPLEMENT_MODULE_Chaos
